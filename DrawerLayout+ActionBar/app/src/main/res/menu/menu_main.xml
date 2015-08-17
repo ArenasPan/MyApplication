@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/app_name"
+        android:orderInCategory="1" app:showAsAction="always"
+        android:icon="@drawable/night_biz_pc_menu_icon"/>
+    <item android:id="@+id/action_btn1" android:title="更多"
+        android:orderInCategory="2" app:showAsAction="always"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha">
+        <menu>
+            <item
+                android:id="@+id/action_btn2"
+                android:icon="@drawable/biz_plugin_manage_weather"
+                android:title="天气"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_btn3"
+                android:icon="@drawable/biz_plugin_manage_theme"
+                android:title="夜间"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_btn4"
+                android:icon="@drawable/biz_plugin_manage_search"
+                android:title="搜索"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_btn5"
+                android:icon="@drawable/biz_plugin_manage_qrcode"
+                android:title="扫一扫"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_btn6"
+                android:icon="@drawable/biz_plugin_manage_offline"
+                android:title="离线"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>

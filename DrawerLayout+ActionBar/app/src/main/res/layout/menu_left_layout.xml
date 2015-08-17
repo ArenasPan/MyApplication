@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新闻"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:id="@+id/news" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订阅"
+            android:layout_below="@+id/news"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:id="@+id/read" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片"
+            android:layout_below="@+id/read"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:id="@+id/picture" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="视频"
+            android:layout_below="@+id/picture"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:id="@+id/video" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跟帖"
+            android:layout_below="@+id/video"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:id="@+id/textView6" />
+    </RelativeLayout>
+
+</RelativeLayout>
